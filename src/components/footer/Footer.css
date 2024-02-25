@@ -1,0 +1,130 @@
+.footer {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(30, 32, 34);
+  min-height: 10vh;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .social_icon,
+.footer .menu {
+  padding-inline-start: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.footer .social_icon li,
+.footer .menu li {
+  list-style: none;
+}
+.footer .social_icon li a {
+  font-size: 2rem;
+  color: white;
+  margin: 0 2rem;
+  display: inline-block;
+  transition: 0.5s;
+}
+.footer .menu li a {
+  font-size: 1rem;
+  margin: 0 2rem;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+}
+.footer .social_icon li a:hover {
+  transform: translateY(-10px);
+}
+.footer .menu li a {
+  opacity: 0.6;
+  color: #fff;
+  transition: all 0.3s;
+}
+.footer .menu li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+.footer .menu li a:hover {
+  opacity: 1;
+}
+.footer .menu li a:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+.footer .wave {
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("../../assets/images/wave.png");
+  background-size: 1000px 100px;
+}
+.footer .wave#wave1 {
+  z-index: 10;
+  opacity: 0.5;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+.footer .wave#wave2 {
+  z-index: 9;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3 {
+  z-index: 10;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
+}
+.footer .wave#wave4 {
+  z-index: 9;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    padding: 0;
+  }
+}

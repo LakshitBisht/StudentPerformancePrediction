@@ -1,0 +1,126 @@
+form {
+  background: rgba(30, 32, 34, 0.75);
+  margin: auto;
+  padding: 3rem;
+  z-index: 99;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 25rem;
+}
+
+form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+form .error {
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px rgba(180, 230, 30, 0.25) solid;
+  color: #ed2;
+  border-radius: 0.25rem;
+  background: rgba(180, 230, 30, 0.15);
+  margin-bottom: 2rem;
+  animation: showError 0.5s ease-out;
+}
+@keyframes showError {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+form .input-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+form .input-div label {
+  opacity: 0.85;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  font-family: "Mulish";
+}
+form .input-div input, form .input-div textarea {
+  background: #222831;
+  padding: 0.6rem 0.75rem;
+  width: 100%;
+  border: 1px rgba(255, 255, 255, 0.15) solid;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-family: "Work Sans";
+  font-weight: 500;
+  transition: all 0.2s;
+}
+form .input-div input:focus, form .input-div textarea:focus {
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  background: #444444;
+  outline: none;
+}
+
+form button {
+  background: #3cb19f;
+  padding: 0.65rem 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-family: "Mulish";
+  transition: all 0.2s linear;
+}
+form button:hover {
+  transform: scale(1.02);
+}
+form button:focus {
+  transform: scale(0.98);
+  outline: none;
+}
+form button:disabled {
+  opacity: 0.6;
+}
+form button.google {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  font-weight: 400;
+}
+
+form p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-family: "Mulish";
+  margin-bottom: 1.5rem;
+}
+
+form a {
+  color: #ec215f;
+  opacity: 0.75;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+form a:hover {
+  opacity: 1;
+}
+
+form textarea{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 5rem;
+  height: 8rem;
+}
+
+@media (max-width: 550px) {
+  form {
+    padding: 3rem 1.5rem;
+  }
+  form p {
+    font-size: 0.8rem;
+  }
+}

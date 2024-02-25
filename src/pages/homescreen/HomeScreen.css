@@ -1,0 +1,11 @@
+.homeScreen{
+    min-height: 100vh;
+    padding-bottom: 310px;
+}
+
+@media (max-width: 450px)
+{
+    .homeScreen{
+    padding-bottom: 410px;
+    }
+}
