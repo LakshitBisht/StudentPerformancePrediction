@@ -17,52 +17,38 @@ class UsersDB {
 
   create = (docId) => {
     const docRef = doc(this.db, this.collectionName, docId);
-    return setDoc(docRef,{mylist:[],history:[]});
+    return setDoc(docRef, { predictions: [] });
   };
 
-  insertHistory = (docId, data) => {
+  insertPredictions = (docId, data) => {
     const docRef = doc(this.db, this.collectionName, docId);
-    return updateDoc(docRef,{
-      history: arrayUnion(data)
+    return updateDoc(docRef, {
+      predictions: arrayUnion(data),
     });
-  }
+  };
 
-  removeHistory = (docId, data) => {
+  removePredictions = (docId, data) => {
     const docRef = doc(this.db, this.collectionName, docId);
-    return updateDoc(docRef,{
-      history: arrayRemove(data)
+    return updateDoc(docRef, {
+      predictions: arrayRemove(data),
     });
-  }
+  };
 
-  clearHistory = (docId) => {
+  clearPredictions = (docId) => {
     const docRef = doc(this.db, this.collectionName, docId);
-    return updateDoc(docRef,{
-      history: []
+    return updateDoc(docRef, {
+      predictions: [],
     });
-  }
-
-  insertMyList = (docId, data) => {
-    const docRef = doc(this.db, this.collectionName, docId);
-    return updateDoc(docRef,{
-      mylist: arrayUnion(data)
-    });
-  }
-
-  removeMyList = (docId, data) => {
-    const docRef = doc(this.db, this.collectionName, docId);
-    return updateDoc(docRef,{
-      mylist: arrayRemove(data)
-    });
-  }
+  };
 
   initialize = (docId) => {
     const docRef = doc(this.db, this.collectionName, docId);
     return getDoc(docRef);
   };
 
-  copy = (docId, listArray, historyArray) => {
+  copy = (docId, predictionsArray) => {
     const docRef = doc(this.db, this.collectionName, docId);
-    return setDoc(docRef,{mylist: listArray,history: historyArray});
+    return setDoc(docRef, { predictions: predictionsArray });
   };
 
   delete = (docId) => {

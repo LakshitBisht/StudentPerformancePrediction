@@ -42,7 +42,7 @@ function Signup() {
         setLoading(false);
         toast.success("Welcome!");
         setTimeout(() => {
-          navigate("/browse/home");
+          navigate("/home");
         }, 2000);
       })
       .catch(() => {
@@ -53,8 +53,8 @@ function Signup() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(passwordRef.current.value.length < 6){
-     return setError("Passwords Should be of Atleast 6 Characters!");
+    if (passwordRef.current.value.length < 6) {
+      return setError("Passwords Should be of Atleast 6 Characters!");
     }
     if (passwordRef.current.value !== confirmPasswordRef.current.value) {
       return setError("Passwords Do Not Match!");
@@ -65,24 +65,22 @@ function Signup() {
     let username = usernameRef.current.value;
     toast
       .promise(
-        createUserWithEmailAndPassword(
-          auth,
-          email,
-          password
-        ).then(async () => {
+        createUserWithEmailAndPassword(auth, email, password).then(async () => {
           dispatch(createUserDB(email));
           await updateProfile(auth.currentUser, {
             displayName: username,
             photoURL: `https://api.dicebear.com/7.x/adventurer-neutral/svg/seed=${email}`,
           });
-          dispatch(login({
-            uid: auth.currentUser.uid,
-            email: auth.currentUser.email,
-            displayName: auth.currentUser.displayName,
-            photoURL: auth.currentUser.photoURL
-          }));
+          dispatch(
+            login({
+              uid: auth.currentUser.uid,
+              email: auth.currentUser.email,
+              displayName: auth.currentUser.displayName,
+              photoURL: auth.currentUser.photoURL,
+            })
+          );
           setLoading(false);
-            navigate("/browse/home", { replace: true });
+          navigate("/home", { replace: true });
         }),
         {
           pending: "Setting Up Account...",

@@ -1,0 +1,32 @@
+.pred-form{
+    margin-bottom: 60px;
+    max-width: none;
+}
+
+.form-container{
+    display: flow-root;
+}
+
+.pred-result{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pred-result h1{
+    margin: 1rem;
+}
+.pred-result p{
+    margin: 1rem;
+}
+.pred-result span{
+    color: aqua;
+    text-decoration: underline;
+}
+.pred-result button{
+    padding: 10px 2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}

@@ -1,0 +1,108 @@
+.predictions {
+    min-height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 280px;
+  }
+  
+  .predictions-heading {
+    margin: 0 3rem 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .predictions-button {
+    font-size: 0.75rem !important;
+    color: rgb(30, 32, 34) !important;
+    font-weight: 500 !important;
+    font-family: "Work Sans", sans-serif !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: all 0.3s ease !important;
+  }
+  .predictions-button:hover {
+    background-color: rgb(215, 215, 215) !important;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .predictions-list {
+    margin-bottom: 3rem;
+  }
+  .predictions-list-item {
+    text-align: center;
+    margin: 0.25rem 3rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  .predictions-list-item:hover {
+    background: rgba(30, 32, 34, 0.2);
+  }
+  
+  .predictions-list-item:nth-child(odd) {
+    background: rgb(30, 32, 34);
+  }
+  .predictions-list-item:nth-child(odd):hover {
+    background: rgba(30, 32, 34, 0.8);
+  }
+  
+  .predictions-list-itemInfo {
+    width: 15rem;
+  }
+  
+  .predictions-list-item img {
+    height: 50px;
+    width: 75px;
+    border-radius: 5px;
+  }
+  .predictions-list-item img:hover,
+  .predictions-list-itemInfo:hover,
+  .predictions-list-date-time:hover,
+  .predictions-list-itemDelete:hover {
+    cursor: pointer;
+  }
+  
+  .predictions h4 {
+    font-size: 1.8rem;
+  }
+  
+  .predictions-list-likes {
+    margin-left: 1rem;
+  }
+  
+  .predictions-message {
+    text-align: center;
+  }
+  .predictions-message h2 {
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 450px) {
+    .predictions {
+      padding-bottom: 420px;
+    }
+    .predictions-heading {
+      margin: 0 1rem 3rem 1rem;
+    }
+    .predictions-list-item {
+      margin: 0.5rem 0;
+    }
+    .predictions-list-itemInfo {
+      width: 10rem;
+    }
+    .predictions h4 {
+      font-size: 1.2rem;
+    }
+    .predictions h5 {
+      font-size: 0.8rem;
+    }
+    .predictions small {
+      font-size: 0.7rem;
+    }
+    .predictions-button {
+      font-size: 0.65rem !important;
+      padding: 3px 10px !important;
+    }
+  }
+  

@@ -1,7 +1,28 @@
 .homeScreen{
     min-height: 100vh;
-    padding-bottom: 310px;
 }
+
+.homeScreen .title{
+    position: fixed;
+    left: 230px;
+    width: calc(100% - 230px);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(30, 32, 34);
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+    z-index: 99;
+}
+
+.dashboard-content{
+    min-height: 100%;
+    position: absolute;
+    width: calc(100% - 230px);
+    left: 230px;
+    padding-top: 62px;
+    padding-bottom: 195px;
+}
+
+
 
 @media (max-width: 450px)
 {

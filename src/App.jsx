@@ -66,14 +66,14 @@ function App() {
                 </>
               ) : (
                 <>
-                  <Route exact path="/browse/home" element={<HomeScreen />}/>
+                  <Route exact path="/home" element={<HomeScreen />}/>
                 </>
               )}
               ;
               <Route
                 path="*"
                 element={
-                  <Navigate to={currUser ? "/browse/home" : "/login"} replace />
+                  <Navigate to={currUser ? "/home" : "/login"} replace />
                 }
               />
             </Routes>

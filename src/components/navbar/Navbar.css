@@ -326,7 +326,3 @@
     transform: translateX(0);
   }
 }
-
-.cart-link:hover {
-  cursor: pointer;
-}
