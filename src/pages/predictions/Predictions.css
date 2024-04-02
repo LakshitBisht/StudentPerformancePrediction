@@ -1,6 +1,6 @@
 .predictions {
     min-height: 100vh;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 280px;
   }
   
@@ -12,15 +12,16 @@
   }
   
   .predictions-button {
-    font-size: 0.75rem !important;
-    color: rgb(30, 32, 34) !important;
-    font-weight: 500 !important;
-    font-family: "Work Sans", sans-serif !important;
-    background-color: rgb(255, 255, 255) !important;
-    transition: all 0.3s ease !important;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
   }
   .predictions-button:hover {
-    background-color: rgb(215, 215, 215) !important;
+    background-color: rgb(215, 215, 215);
     transform: translate3d(0, 2px, 0);
   }
   
@@ -30,7 +31,7 @@
   .predictions-list-item {
     text-align: center;
     margin: 0.25rem 3rem;
-    padding: 0.5rem 1rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,17 +49,17 @@
   }
   
   .predictions-list-itemInfo {
-    width: 15rem;
+    width: 20rem;
   }
   
   .predictions-list-item img {
     height: 50px;
-    width: 75px;
-    border-radius: 5px;
+    border-radius: 50%;
   }
-  .predictions-list-item img:hover,
-  .predictions-list-itemInfo:hover,
-  .predictions-list-date-time:hover,
+
+  .prediction-logo{
+    font-size: 20px;
+  }
   .predictions-list-itemDelete:hover {
     cursor: pointer;
   }
@@ -66,10 +67,13 @@
   .predictions h4 {
     font-size: 1.8rem;
   }
-  
-  .predictions-list-likes {
-    margin-left: 1rem;
+
+  .predictions p{
+    margin-top: 0.5rem;
+    font-size: 12px;
   }
+  
+  
   
   .predictions-message {
     text-align: center;
@@ -106,3 +110,48 @@
     }
   }
   
+
+  /* search */
+  .pred-search-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pred-search {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 0.25rem;
+    padding-left: 0.375rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 99px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: width 0.2s;
+    position: relative;
+    margin-right: 1rem;
+  }
+  .pred-search:hover {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding-left: 0.3rem;
+  }
+  
+  .pred-search.open {
+    width: 12rem;
+    padding-left: 25px;
+    justify-content: space-around;
+  }
+  
+  .pred-searchIcon {
+    position: absolute;
+    left: 5px;
+  }
+  
+  .pred-search input {
+    background: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding-right: 0.5rem;
+  }

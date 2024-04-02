@@ -1,0 +1,39 @@
+.back-to-top {
+  position: fixed;
+  bottom: 50px;
+  z-index: 99;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.back-to-top-button {
+  z-index: 1;
+  min-width: 35px !important;
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 100% !important;
+  text-align: center !important;
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: 0px 8px 15px rgba(29, 121, 182, 0.9) !important;
+  animation: animateButton 0.5s infinite alternate ease-in-out;
+  transition: all 0.5s ease-in-out !important;
+}
+.back-to-top-button:hover {
+  background-color: rgb(215, 215, 215) !important;
+  animation-play-state: paused;
+  transform: translate3d(0, 2px, 0);
+  box-shadow: 0px 8px 15px rgba(29, 121, 182, 0.9) !important;
+}
+
+.back-to-top-button:disabled {
+  opacity: 0 !important;
+}
+
+@keyframes animateButton {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}

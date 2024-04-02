@@ -4,6 +4,8 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/singnup/Signup";
 import ForgotPass from "./pages/forgotpass/ForgotPass";
 import HomeScreen from "./pages/homescreen/HomeScreen";
+import About from "./pages/about/About";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,6 +19,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { login, logout, selectUser, getUserDataDB } from "./features/userSlice";
 import { AnimatePresence } from "framer-motion";
 import { ToastContainer } from "react-toastify";
+import BackToTop from "./components/backtotop/BackToTop";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
@@ -24,6 +27,7 @@ function App() {
   const dispatch = useDispatch();
 
   const [loading, setLoading] = useState(true);
+  const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -46,6 +50,23 @@ function App() {
     return unsubscribe;
   }, [dispatch]);
 
+  const checkScroll = () => {
+    if (window.scrollY > 2000) {
+      setShowBackToTop(true);
+    } else {
+      setTimeout(() => {
+        setShowBackToTop(false);
+      }, 800);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkScroll);
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
+  }, []);
+
   return (
     <AnimatePresence>
       <div className="app">
@@ -53,7 +74,9 @@ function App() {
           <Loading />
         ) : (
           <Router>
+            <BackToTop disable={!showBackToTop} />
             <Routes>
+              <Route exact path="/about" element={<About />} />
               {!currUser ? (
                 <>
                   <Route exact path="/login" element={<Login />} />
@@ -66,7 +89,7 @@ function App() {
                 </>
               ) : (
                 <>
-                  <Route exact path="/home" element={<HomeScreen />}/>
+                  <Route exact path="/home" element={<HomeScreen />} />
                 </>
               )}
               ;

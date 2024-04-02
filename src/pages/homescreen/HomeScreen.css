@@ -20,6 +20,9 @@
     left: 230px;
     padding-top: 62px;
     padding-bottom: 195px;
+    background-image: url("../../assets/images/bg2.jpg");
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
 }
 
 
