@@ -7,8 +7,9 @@ import Loading from "../../components/loading/Loading";
 import "./HomeScreen.css";
 import ProfileSettings from "../../components/profilesettings/ProfileSettings";
 import { useState } from "react";
-import Form from "../form/Form";
 import Predictions from "../predictions/Predictions";
+import Recommendations from "../recommendations/Recommendations";
+import PredictionForm from "../predictionform/PredictionForm";
 
 export default function HomeScreen() {
   const user = useSelector(selectUser);
@@ -26,9 +27,9 @@ export default function HomeScreen() {
           </div>
           <Sidebar user={user} setActiveTab={setActiveTab} />
           <div className="dashboard-content">
-            {activeTab == "home" && <Form user={user} />}
+            {activeTab == "home" && <PredictionForm user={user} />}
             {activeTab == "pred" && <Predictions user={user} />}
-
+            {activeTab == "recommend" && <Recommendations user={user} />}
             {activeTab == "settings" && <ProfileSettings />}
             <Footer />
           </div>

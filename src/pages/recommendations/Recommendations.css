@@ -1,0 +1,9 @@
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.recommendations h1{
+    align-self: center;
+}

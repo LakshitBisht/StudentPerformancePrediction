@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import "./Form.css";
+import "./PredictionForm.css";
 import Loading from "../../components/loading/Loading";
 import { useDispatch } from "react-redux";
 import { addPredictionsDB } from "../../features/userSlice";
 
-const Form = ({ user }) => {
+const PredictionForm = ({ user }) => {
   const dispatch = useDispatch();
 
   const [formActive, setformActive] = useState(true);
@@ -253,4 +253,4 @@ const Form = ({ user }) => {
   );
 };
 
-export default Form;
+export default PredictionForm;

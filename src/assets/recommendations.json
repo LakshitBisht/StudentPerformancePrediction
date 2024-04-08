@@ -1,0 +1,268 @@
+{
+  "web-dev": [
+    {
+      "title": "Web Development Course by Scaler",
+      "skills": ["Front-End", "HTML and CSS", "Javascript", "Web Development"],
+      "description": "This comprehensive course by Scaler covers essential web development skills, including front-end development, HTML, CSS, and Javascript. It’s designed to equip learners with the knowledge needed to build and maintain websites.",
+      "image": "https://miro.medium.com/max/1200/0*M4bxiCIjcTK-2Xr6.jpeg"
+    },
+    {
+      "title": "The Complete 2022 Web Development Course on Udemy",
+      "skills": ["Full-Stack", "HTML, CSS, and Javascript", "React"],
+      "description": "Udemy’s complete web development course covers both front-end and back-end development. Learn HTML, CSS, Javascript, and React, and gain practical skills in building web applications.",
+      "image": "https://storifytimes.com/wp-content/uploads/2020/08/web-development.jpg"
+    },
+    {
+      "title": "Web Design for Everybody on Coursera",
+      "skills": ["Front-End", "HTML and CSS", "Web Design"],
+      "description": "This Coursera specialization teaches the basics of web design and development. Learn how to create user-friendly websites using HTML, CSS, and design principles.",
+      "image": "https://i.pinimg.com/originals/ed/35/46/ed3546e27d424df9dae74ad1d0e47639.jpg"
+    },
+    {
+      "title": "Web Development with JavaScript by MIT xPRO",
+      "skills": ["Web Development", "Cloud Applications", "Javascript"],
+      "description": "MIT xPRO’s course focuses on web development using Javascript. Explore cloud applications and gain practical experience in building dynamic web content.",
+      "image": "https://www.code-brew.com/wp-content/uploads/2016/09/web-development-tools.jpg"
+    }
+  ],
+  "python": [
+    {
+      "title": "Python for Data Science, AI & Development by IBM on Coursera",
+      "skills": ["Python Programming", "Computer Programming", "Data Analysis"],
+      "description": "This course covers essential Python skills for data science, AI, and development. Learn Python programming and gain insights into data analysis.",
+      "image": "https://www.pythonforbeginners.com/wp-content/uploads/Python-3-For-Beginners.png"
+    },
+    {
+      "title": "Crash Course on Python by Google on Coursera",
+      "skills": [
+        "Computer Programming",
+        "Data Structures",
+        "Problem Solving",
+        "Python Programming"
+      ],
+      "description": "Google’s crash course provides a quick introduction to Python. Explore data structures, problem-solving, and Python programming.",
+      "image": "https://datatrained.com/post/wp-content/uploads/2022/03/what-is-Python-750x393.png"
+    },
+    {
+      "title": "Python for Everybody by University of Michigan on Coursera",
+      "skills": [
+        "Computer Programming",
+        "Python Programming",
+        "Data Structures",
+        "Web Development Tools"
+      ],
+      "description": "This specialization covers Python basics, data structures, and web development tools. Gain practical skills in Python programming.",
+      "image": "https://aiforkids.in/wp-content/uploads/Copy-of-PROJECT-CYCLE.webp"
+    },
+    {
+      "title": "Google IT Automation with Python Professional Certificate",
+      "skills": [
+        "Cloud Computing",
+        "Computer Programming",
+        "Data Structures",
+        "Google Cloud Platform",
+        "Problem Solving",
+        "Python Programming"
+      ],
+      "description": "Learn Python for IT automation, cloud computing, and Google Cloud Platform. This professional certificate program equips you with essential skills.",
+      "image": "https://i.ytimg.com/vi/2Pr4fHHd2cU/maxresdefault.jpg"
+    }
+  ],
+  "java": [
+    {
+      "title": "Java for Beginners by Programming with Mosh",
+      "skills": [
+        "Java Programming",
+        "Object-Oriented Programming (OOP)",
+        "Problem Solving"
+      ],
+      "description": "This beginner-friendly course by Programming with Mosh covers the fundamentals of Java programming. Learn about Java syntax, object-oriented concepts, and problem-solving techniques.",
+      "image": "https://www.aqskill.com/wp-content/uploads/2021/05/52c9a98cf9e0-5.jpg"
+    },
+    {
+      "title": "Java Programming: Solving Problems with Software on Coursera",
+      "skills": ["Java Programming", "Arrays and Lists", "Structured Data"],
+      "description": "In this Coursera course, you’ll dive deeper into Java programming. Explore arrays, lists, and structured data while solving real-world problems.",
+      "image": "https://cdn.hackr.io/uploads/posts/large/1678785925OCRASAVjH9.png"
+    },
+    {
+      "title": "Java FullStack Developer by Board Infinity",
+      "skills": [
+        "Java",
+        "Angular (Web Framework)",
+        "Front-End Design",
+        "Javascript and jQuery",
+        "Spring Boot"
+      ],
+      "description": "Board Infinity’s specialization covers full-stack development using Java. Gain practical skills in front-end design, Angular, and Spring Boot.",
+      "image": "https://wcc.co.uk/wp-content/uploads/2016/05/jsp-770x415.jpg"
+    },
+    {
+      "title": "Java Programming and Software Engineering Fundamentals by Duke University on Coursera",
+      "skills": [
+        "Java Programming",
+        "Javascript and jQuery",
+        "Cascading Style Sheets (CSS)",
+        "Web Design and Development"
+      ],
+      "description": "Duke University’s specialization introduces you to Java programming and software engineering. Learn about web design, CSS, and building robust applications.",
+      "image": "https://visualmodo.com/wp-content/uploads/2022/11/What-Does-A-Good-Java-Developer-Need-To-Know-visualmodo.jpg"
+    }
+  ],
+  "android": [
+    {
+      "title": "Android Basics in Kotlin | Training Courses | Android Developers",
+      "skills": [
+        "Kotlin Programming",
+        "Android App Development",
+        "Material Design",
+        "App Architecture",
+        "Data Storage"
+      ],
+      "description": "This course is the recommended starting point for learning Android. Using Jetpack Compose, you’ll build a series of apps in Kotlin, covering Material Design, app architecture, data storage, network fetching, and more. No prior programming experience required.",
+      "image": "https://i.pinimg.com/originals/a1/57/6d/a1576d51abdaa4b88d6d7dcee3c96d39.jpg"
+    },
+    {
+      "title": "Jetpack Compose for Android developers",
+      "skills": ["Kotlin Programming", "Jetpack Compose", "UI Development"],
+      "description": "Dive deeper into Jetpack Compose, the modern toolkit for building Android UIs. Enhance your skills in creating beautiful user interfaces using Kotlin.",
+      "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/133093720/original/edec968f4d1153f3678440bb947edd62423984d4/android-app-developer-android-studio-mobile-app.jpg"
+    },
+    {
+      "title": "Modern Android app architecture",
+      "skills": [
+        "App Architecture",
+        "Best Practices",
+        "Production-Quality Apps"
+      ],
+      "description": "Learn recommended architecture and best practices for building robust Android apps suitable for production environments.",
+      "image": "https://i.pinimg.com/originals/a1/57/6d/a1576d51abdaa4b88d6d7dcee3c96d39.jpg"
+    },
+    {
+      "title": "Kotlin for Java developers",
+      "skills": [
+        "Kotlin Programming",
+        "Java Interoperability",
+        "Writing Callable Kotlin Code"
+      ],
+      "description": "Convert Java code to Kotlin using Android Studio and learn Kotlin conventions. Write Kotlin code that can be called from Java.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/1/JK/VY/KD/2817852/app-development-training-institute-in-nehru-place-500x500.jpg"
+    }
+  ],
+  "ml": [
+    {
+      "title": "Machine Learning with Python Course by IBM on Coursera",
+      "skills": [
+        "Machine Learning",
+        "Algorithms",
+        "Data Analysis",
+        "Human Learning",
+        "Python Programming",
+        "Regression"
+      ],
+      "description": "This course provides a foundational understanding of machine learning using Python. Topics include supervised vs. unsupervised learning, linear & non-linear regression, and classification techniques (K-Nearest Neighbors, decision trees, and Logistic Regression). You’ll also explore clustering methods like k-means, hierarchical clustering, and DBSCAN. Hands-on labs using Python libraries like SciPy and scikit-learn enhance your practical skills. By the end, you’ll have job-ready competencies and a certificate in machine learning from IBM.",
+      "image": "https://www.classcentral.com/report/wp-content/uploads/2022/05/ML-BCG-Featured-image.png"
+    },
+    {
+      "title": "Python for Data Science, AI & Development by IBM on Coursera",
+      "skills": ["Python Programming", "Computer Programming", "Data Analysis"],
+      "description": "This course covers essential Python skills for data science, AI, and development. Learn Python programming and gain insights into data analysis.",
+      "image": "https://gisgeography.com/wp-content/uploads/2022/01/Artificial-Intelligence-Courses-300x192.png"
+    },
+    {
+      "title": "Machine Learning by DeepLearning.AI on Coursera",
+      "skills": ["Deep Learning", "Neural Networks", "TensorFlow", "Keras"],
+      "description": "Dive into machine learning with a focus on deep learning. Explore neural networks, TensorFlow, and Keras to build powerful ML models.",
+      "image": "https://cdn.eduonix.com/assets/images/header_img/2020022610515011709.jpg"
+    },
+    {
+      "title": "Applied Machine Learning in Python by University of Michigan on Coursera",
+      "skills": [
+        "Machine Learning",
+        "Python Programming",
+        "Scikit-learn",
+        "Pandas"
+      ],
+      "description": "This course emphasizes practical application of machine learning concepts using Python. Work with Scikit-learn and Pandas to solve real-world problems.",
+      "image": "https://images.yourstory.com/production/document_image/mystoryimage/uv63oka8-ERP-Software-for-University-Management-System.png"
+    }
+  ],
+  "dl": [
+    {
+      "title": "Deep Learning Specialization by DeepLearning.AI on Coursera",
+      "skills": [
+        "Neural Networks",
+        "Convolutional Neural Networks",
+        "Recurrent Neural Networks",
+        "LSTMs",
+        "Transformers",
+        "Python and TensorFlow"
+      ],
+      "description": "This foundational program helps you understand deep learning capabilities, challenges, and consequences. Learn to build and train neural network architectures, apply strategies like Dropout and BatchNorm, and tackle real-world cases such as speech recognition, music synthesis, and natural language processing.",
+      "image": "https://cdn-images-1.medium.com/max/2600/1*u9L_UJbV0Qfg1PZQkHna2g.png"
+    },
+    {
+      "title": "Neural Networks and Deep Learning by DeepLearning.AI on Coursera",
+      "skills": [
+        "Neural Networks",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Generative Adversarial Networks",
+        "Python and TensorFlow"
+      ],
+      "description": "Master the foundations of deep learning with this course. Explore computer vision, NLP, and GANs. Gain practical skills to break into cutting-edge AI.",
+      "image": "https://i.ytimg.com/vi/CHNurS2Afno/maxresdefault.jpg"
+    },
+    {
+      "title": "Complete Guide to TensorFlow for Deep Learning with Python on Udemy",
+      "skills": ["TensorFlow", "Deep Learning Models", "Python Programming"],
+      "description": "Learn TensorFlow, a popular framework for building deep learning models. This beginner-friendly course covers practical applications and introduces you to TensorFlow.",
+      "image": "https://media.istockphoto.com/id/1162362052/vector/artificial-intelligence-deep-learning-design-concept.jpg?s=612x612&w=0&k=20&c=zMF5REteaIKWFpjySjE-ylkHVttrG9jhu72I6co_4nM="
+    },
+    {
+      "title": "Deep Learning A-Z: Hands-On Artificial Neural Networks on Udemy",
+      "skills": [
+        "Artificial Neural Networks",
+        "Python and Keras",
+        "Practical Applications"
+      ],
+      "description": "Build various types of artificial neural networks using Python and Keras. Gain hands-on experience in deep learning with practical examples.",
+      "image": "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2022-04/what-is-deep-learning.png"
+    }
+  ],
+  "ds-algo": [
+    {
+      "title": "Data Structures and Algorithms Specialization by University of California San Diego",
+      "skills": ["Computer Programming", "Problem Solving"],
+      "description": "This specialization equips you with foundational knowledge in data structures and algorithms. Explore topics like graph theory, computational logic, and mathematical analysis. Gain practical skills to efficiently organize, manipulate, and analyze data.",
+      "image": "https://s3.amazonaws.com/coursesity-blog/2020/07/data-structure-algorithm-courses.png"
+    },
+    {
+      "title": "Algorithms, Part I by Princeton University",
+      "skills": [
+        "Computer Programming",
+        "Java Programming",
+        "Problem Solving",
+        "Programming Principles"
+      ],
+      "description": "Dive deeper into algorithms with this course. Explore Java programming, data structures, and problem-solving techniques.",
+      "image": "https://miro.medium.com/v2/resize:fit:1358/1*4ZcW5tSdizlbtDQyVpRTuA.jpeg"
+    },
+    {
+      "title": "Foundations of Data Structures and Algorithms by University of Colorado Boulder",
+      "skills": [
+        "Computer Programming",
+        "Problem Solving",
+        "Python Programming"
+      ],
+      "description": "This specialization covers essential data structures and algorithms. Learn about graph theory, computational logic, and Python programming.",
+      "image": "https://nicscomputer.com/photo/data-structure.webp"
+    },
+    {
+      "title": "Python for Data Science, AI & Development by IBM on Coursera",
+      "skills": ["Python Programming", "Computer Programming", "Data Analysis"],
+      "description": "This course covers essential Python skills for data science, AI, and development. Learn Python programming and gain insights into data analysis.",
+      "image": "https://i.ytimg.com/vi/bdPAVhX4qyI/maxresdefault.jpg"
+    }
+  ]
+}
